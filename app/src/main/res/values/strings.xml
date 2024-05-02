@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">SwimProject</string>
+    <string name="text_welcome">Давай начнем!</string>
+    <string name="please_try_again_toast">Нажмите еще раз</string>
+    <string name="dr_sign_in">Войти</string>
+    <string name="comment_register">Если у тебя нет зарегистрированного аккаунта</string>
+    <string name="comment_register1">Ты можешь</string>
+    <string name="comment_register_click">Зарегистрироваться здесь</string>
+    <string name="input_email">Введите email</string>
+    <string name="input_password">Введите пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="dr_registr_comment">Регистрация</string>
+    <string name="register_comment4">Если ты уже зарегистрирован</string>
+    <string name="comment_signin">Войти</string>
+    <string name="input_name">Введите имя</string>
+    <string name="input_password_again">Введите пароль еще раз</string>
+    <string name="register_button">Зарегистрироваться</string>
 </resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "854682433366",
+    "project_id": "swimapp-b633e",
+    "storage_bucket": "swimapp-b633e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854682433366:android:12a6623ef59efc5c0c88f7",
+        "android_client_info": {
+          "package_name": "com.example.swimproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBflqq904CMaRidRtN9eM3kc6S501sdeok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
