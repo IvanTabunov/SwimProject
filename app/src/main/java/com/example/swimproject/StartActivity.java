@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class StartActivity extends AppCompatActivity {
 
-    Button buttonStart;
+    private Button buttonStart;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

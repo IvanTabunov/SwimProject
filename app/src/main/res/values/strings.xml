@@ -15,4 +15,15 @@
     <string name="input_name">Введите имя</string>
     <string name="input_password_again">Введите пароль еще раз</string>
     <string name="register_button">Зарегистрироваться</string>
+    <string name="not_empty">Поля не могут быть пустыми!</string>
+    <string name="wrong_data_input">Данные введены некорректно</string>
+    <string name="question1">Кто ты в мире плавания?</string>
+    <string name="notice_level">Новичек</string>
+    <string name="medium_level">Любитель</string>
+    <string name="advanced_level">Профессионал</string>
+    <string name="stamina">Увеличить выносливость</string>
+    <string name="technique">Улучшить технику</string>
+    <string name="competition">Подготовиться к соревнованиям</string>
+    <string name="open_water">Открытая вода</string>
+    <string name="question2">Какая у тебя\n цель тренировок?</string>
 </resources>
