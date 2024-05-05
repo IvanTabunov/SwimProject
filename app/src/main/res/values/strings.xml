@@ -26,4 +26,10 @@
     <string name="competition">Подготовиться к соревнованиям</string>
     <string name="open_water">Открытая вода</string>
     <string name="question2">Какая у тебя\n цель тренировок?</string>
+    <string name="info">Info</string>
+    <string name="workout">Workout</string>
+    <string name="profile">Profile</string>
+    <string name="work">Тренировки</string>
+    <string name="infoMain">Информация</string>
+    <string name="profile_main">Профиль</string>
 </resources>
