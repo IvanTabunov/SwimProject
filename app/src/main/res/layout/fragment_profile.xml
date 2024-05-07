@@ -7,14 +7,122 @@
     tools:context=".bottomnav.profile.ProfileFragment">
 
 
-    <TextView
-        android:id="@+id/textViewProfile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="profile"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+
+    <ImageView
+        android:id="@+id/imageViewPlan"
+        android:layout_width="340dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="96dp"
+        android:src="@drawable/plan"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/circleImageViewAvatar" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageViewAvatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewKilometres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.5"
+        android:textColor="@color/white"
+        android:layout_marginBottom="36dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPlan"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPlan" />
+
+    <TextView
+        android:id="@+id/textViewHours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.5"
+        android:textColor="@color/white"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPlan"
+        app:layout_constraintStart_toStartOf="@+id/imageViewPlan"
+        app:layout_constraintEnd_toEndOf="@id/imageViewPlan"/>
+
+    <TextView
+        android:id="@+id/textViewWorkoutCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textColor="@color/white"
+        android:layout_marginBottom="36dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewPlan"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewPlan" />
+
+    <Button
+        android:id="@+id/buttonAnthropometry"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/rec"
+        android:fontFamily="@font/poppins"
+        android:padding="12dp"
+        android:text="@string/antropom"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewPlan" />
+
+    <Button
+        android:id="@+id/buttonRanksTitles"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rec"
+        android:fontFamily="@font/poppins"
+        android:padding="12dp"
+        android:text="@string/ranks"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAnthropometry" />
+
+    <Button
+        android:id="@+id/buttonRecords"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rec"
+        android:fontFamily="@font/poppins"
+        android:padding="12dp"
+        android:text="@string/record"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRanksTitles" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/recnoymain"
+        android:fontFamily="@font/poppins"
+        android:padding="12dp"
+        android:text="Exit and Delete Profile"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRecords" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

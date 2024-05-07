@@ -32,4 +32,8 @@
     <string name="work">Тренировки</string>
     <string name="infoMain">Информация</string>
     <string name="profile_main">Профиль</string>
+    <string name="anthropometry">Anthropometry</string>
+    <string name="antropom">Антропометрия</string>
+    <string name="ranks">Разряды и Звания</string>
+    <string name="record">Мои рекодры</string>
 </resources>

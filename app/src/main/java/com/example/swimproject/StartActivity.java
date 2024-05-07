@@ -24,7 +24,7 @@ public class StartActivity extends AppCompatActivity {
     public void startSingIn(View view) {
         buttonStart.setOnClickListener(v -> {
             try{
-                Intent intent = new Intent(StartActivity.this, SingInActivity.class);
+                Intent intent = new Intent(StartActivity.this, ChooseWorkoutActivity.class);
                 startActivity(intent);
             }catch (Exception e){
                 Toast.makeText(StartActivity.this, getString(R.string.please_try_again_toast), Toast.LENGTH_SHORT).show();
